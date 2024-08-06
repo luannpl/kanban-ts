@@ -4,7 +4,7 @@ import Content from "./Content"
 export default function Container(){
     return(
         <>
-        <div className="bg-slate-200 h-screen">
+        <div className="no-scrollbar overflow-x-auto h-screen">
         <Content/>
         </div>
         </>

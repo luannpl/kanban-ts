@@ -6,10 +6,11 @@ import { Input } from "./ui/input";
 import { Button } from "@/components/ui/button";
 
 type ColumnsType = {
-  backlog: { name: string; date: string }[];
-  todo: { name: string; date: string }[];
-  inProgress: { name: string; date: string }[];
-  done: { name: string; date: string }[];
+  // backlog: { name: string; date: string }[];
+  // todo: { name: string; date: string }[];
+  // inProgress: { name: string; date: string }[];
+  // done: { name: string; date: string }[];
+  [key: string]: { name: string; date: string }[];
 };
 
 export default function BoardContainer() {
